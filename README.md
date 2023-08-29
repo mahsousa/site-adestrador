@@ -1,6 +1,6 @@
 ![Captura de tela 2023-08-29 130154](https://github.com/mahsousa/site-adestrador/assets/32987989/e5c84c3f-c8b5-40f4-bab5-bf2807cf01a4)
  
-# site-adestrador
+# KEEP CALM DOGS
 
 Projeto Real - Modelo de site criado para adestrador de cães. Desenvolvido em HTML e CSS puro.
 
