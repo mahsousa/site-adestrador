@@ -4,7 +4,10 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta nome="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link type="text/css" rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <script src="https://kit.fontawesome.com/731737791f.js" crossorigin="anonymous"></script>
   <!--SCRIPT FONT AWESOME-->
   <title>Site em breve</title>
@@ -14,42 +17,39 @@
 </head>
 
 <body>
-   <!---HEADER E BANNER-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
+  <script> $(function () { $(".button-collapse").sideNav(); });</script>
+  <!---HEADER E BANNER-->
   <div class="container-banner">
-    <div class="content-menu">
-      <div class="content-1-banner">
-        <div class="logo">
-          <a href="#">
-            <img src="src/images/favicon.webp" alt="Logo Keep-Calm-Dog" class="imagemLogo">
-          </a>
-        </div>
-      </div>
-      <div class="content-2-banner">
-        <nav class="navegacao">
-          <ul class="menu">
-            <li class="item">
-              <a href="#">INÍCIO</a>
-            </li>
-            <li class="item">
-              <a href="#">TREINAMENTOS</a>
-            </li>
-            <li class="item">
-              <a href="#">SOBRE MIM</a>
-            </li>
-            <li class="item">
-              <a href="#">SERVIÇOS</a>
-            </li>
-            <li class="item">
-              <a href="#">CONTATO</a>
-            </li>
-          </ul>
-        </nav>
-      </div>
-      <div class="content-3-banner">
-        <div class="cta-button">
-          <button class="button">FALE COMIGO</button>
-        </div>
-      </div>
+    <div class="content-2-banner">
+      <nav class="nav-wrapper">
+          <div>
+            <img class="logo-main scale-with-grid" src="./src/images/favicon.webp" alt="Keep Calm Adestramento">
+          </div>
+          <div>
+            <a href="#" data-activates="menu-mobile" class="button-collapse">
+              <i class="material-icons">menu</i>
+            </a>
+            <ul class="right hide-on-med-and-down">
+              <li><a href="#">INÍCIO</a></li>
+              <li><a href="#">TREINAMENTOS</a></li>
+              <li><a href="#">SOBRE MIM</a></li>
+              <li><a href="#">SERVIÇOS</a></li>
+              <li><a href="#">CONTATO</a></li>
+            </ul>
+            <ul class="side-nav" id="menu-mobile">
+              <li><a href="#">INÍCIO</a></li>
+              <li><a href="#">TREINAMENTOS</a></li>
+              <li><a href="#">SOBRE MIM</a></li>
+              <li><a href="#">SERVIÇOS</a></li>
+              <li><a href="#">CONTATO</a></li>
+            </ul>
+          </div>
+          <div class="btn-menu">
+            <button class="button-menu">FALE COMIGO</button>
+          </div>
+      </nav>
     </div>
     <div class="content-banner">
       <div class="content-banner-titulo">
@@ -66,6 +66,7 @@
         <img src="./src/images/slider-pic2.webp">
       </div>
     </div>
+  </div>
   </div>
   <!---HEADER E BANNER-->
   <!----SECTION 1---->
