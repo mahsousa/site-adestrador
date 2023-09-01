@@ -8,6 +8,10 @@
   color: black;
 }
 
+ul:not(.browser-default) {
+  padding: 0 20px;
+}
+
 /*HEADER E BANNER*/
 .container-banner {
   width: 100%;
@@ -172,6 +176,41 @@ nav,
   }
 
 }
+
+@media screen and (min-width: 992px) {
+
+  nav i,
+  nav [class^="mdi-"],
+  nav [class*="mdi-"],
+  nav i.material-icons {
+    color: #ff6326;
+    font-size: 30px;
+  }
+
+  nav.nav-wrapper a {
+    padding: 0;
+  }
+
+  .btn-menu {
+    display: none;
+  }
+
+  .container-banner {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+  }
+
+  .content-banner-depoimentos {
+    display: none;
+  }
+
+  .content-banner {
+    padding: 100px 20px;
+  }
+
+}
+
 /*HEADER E BANNER*/
 
 /*TRILHA SECTION-1*/
@@ -255,6 +294,20 @@ nav,
   }
 }
 
+@media screen and (min-width: 992px) {
+  .section-1 p {
+    font-size: 16px;
+  }
+
+  .section-1-descrição br {
+    display: none;
+  }
+
+  .section-1-descrição {
+    text-align: center;
+  }
+}
+
 /*TRILHA SECTION-1*/
 /*SECTION-2*/
 
@@ -327,6 +380,24 @@ nav,
   .content-2-section-2 img {
     width: 100%;
     height: 100%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .section-2 {
+    height: 400px;
+  }
+
+  .content-1-section-2 {
+    padding: 20px;
+  }
+
+  .content-1-section-2 .section-2-titulo {
+    font-size: 60px;
+  }
+
+  .content-1-section-2 p {
+    padding: 10px 0;
   }
 }
 
@@ -412,6 +483,24 @@ nav,
   }
 }
 
+@media screen and (min-width: 992px) {
+  .section-3 {
+    height: 400px;
+  }
+
+  .content-1-section-3 {
+    padding: 20px;
+  }
+
+  .content-1-section-3 .section-3-titulo {
+    font-size: 60px;
+  }
+
+  .content-1-section-3 p {
+    padding: 10px 0;
+  }
+}
+
 /*SECTION-3*/
 
 /*SECTION-4*/
@@ -494,6 +583,24 @@ nav,
   }
 }
 
+@media screen and (min-width: 992px) {
+  .section-4 {
+    height: 400px;
+  }
+
+  .content-1-section-4 {
+    padding: 20px;
+  }
+
+  .content-1-section-4 .section-4-titulo {
+    font-size: 60px;
+  }
+
+  .content-1-section-4 p {
+    padding: 10px 0;
+  }
+}
+
 /*SECTION-4*/
 /*SECTION-5*/
 
@@ -572,6 +679,24 @@ nav,
   .content-2-section-5 img {
     width: 100%;
     height: 100%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .section-5 {
+    height: 400px;
+  }
+
+  .content-1-section-5 {
+    padding: 20px;
+  }
+
+  .content-1-section-5 .section-5-titulo {
+    font-size: 60px;
+  }
+
+  .content-1-section-5 p {
+    padding: 10px 0;
   }
 }
 
@@ -661,8 +786,27 @@ nav,
     font-size: 40px;
     letter-spacing: 0px;
   }
+}
 
+@media screen and (min-width: 992px) {
 
+  .section-6 {
+    width: 100%;
+    padding: 50px 20px;
+    background-color: #f2f3f5;
+  }
+
+  .container-section-6 {
+    width: 100%;
+  }
+
+  .content-1-section-6 .section-6-titulo {
+    font-size: 60px;
+  }
+
+  .content-1-section-6 a {
+    margin: 20px 0;
+  }
 }
 
 /*SECTION-6*/
@@ -773,6 +917,22 @@ hr {
     margin: 0;
     padding: 40px 0;
     text-align: start;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .section-7 {
+    width: 100%;
+    padding: 50px 20px;
+  }
+
+  .content-section-7 {
+    width: 100%;
+  }
+
+  .container-section-7 h2 {
+    padding-bottom: 50px;
+    font-size: 60px;
   }
 }
 
@@ -929,6 +1089,18 @@ hr {
 
 }
 
+@media screen and (min-width: 992px) {
+
+  .content-section-8 {
+    width: 100%;
+  }
+
+  .section-8 {
+    width: 100%;
+    padding: 50px 20px;
+  }
+}
+
 /*SECTION 8*/
 /*SECTION 9*/
 .section-9 {
@@ -1007,7 +1179,6 @@ hr {
 
 .formulario input {
   height: 50px;
-  margin-bottom: 20px;
   background: none;
   border-width: 1px;
   border-style: solid;
@@ -1015,7 +1186,6 @@ hr {
   font-size: 13px;
   color: #d5d5d5;
   font-family: Arial, Helvetica, sans-serif;
-  padding: 6px;
 }
 
 textarea:focus,
@@ -1025,36 +1195,7 @@ input:focus {
   outline: 0;
 }
 
-.one-input {
-  width: 49%;
-}
-
-.input-name {
-  width: 100%;
-}
-
-.input-tel {
-  width: 100%
-}
-
-.two-input {
-  width: 49%;
-}
-
-.tree-input {
-  width: 100%;
-}
-
-.input-assunto {
-  width: 99%;
-}
-
-.for-input {
-  width: 100%;
-}
-
 .text-description {
-  width: 99%;
   height: 300px;
   background: none;
   border-width: 1px;
@@ -1063,7 +1204,6 @@ input:focus {
   font-size: 13px;
   color: #d5d5d5;
   font-family: Arial, Helvetica, sans-serif;
-  padding: 6px;
 }
 
 .button-form {
@@ -1160,8 +1300,26 @@ input:focus {
   .formulario input {
     padding: 0;
   }
-  
+}
 
+@media screen and (min-width: 992px) {
+
+  .content-section-9 {
+    width: 100%;
+  }
+
+  .content-form {
+    width: 100%;
+  }
+
+  form.formulario {
+    width: 100%;
+  }
+
+  .section-formulario {
+    width: 100%;
+    padding: 100px 20px;
+  }
 }
 
 /*FOOTER*/
