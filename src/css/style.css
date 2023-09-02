@@ -202,10 +202,6 @@ nav,
 
 }
 
-@media (min-width: 1221px) {
-  
-
-}
 
 /*HEADER E BANNER*/
 
@@ -467,7 +463,6 @@ nav,
 
   .content-1-section-3 {
     width: 100%;
-    padding: 40px 20px;
     margin: 0;
   }
 
@@ -567,7 +562,6 @@ nav,
 
   .content-1-section-4 {
     width: 100%;
-    padding: 40px 20px;
     margin: 0;
   }
 
@@ -666,7 +660,6 @@ nav,
 
   .content-1-section-5 {
     width: 100%;
-    padding: 40px 20px;
     margin: 0;
   }
 
